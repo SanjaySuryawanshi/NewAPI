@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a8e261d299364a8bb9a559887b6245a0" Name="Diagram1">
+        <EntityTypeShape EntityType="KPITAssignmentModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KPITAssignmentModel.AnswerList" Width="1.5" PointX="8" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KPITAssignmentModel.AnswerList1" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KPITAssignmentModel.QuestionCheckList" Width="1.5" PointX="8" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KPITAssignmentModel.QuestionCheckList1" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KPITAssignmentModel.QuestionList" Width="1.5" PointX="5.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KPITAssignmentModel.QuestionList1" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KPITAssignmentModel.sysdiagram" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="KPITAssignmentModel.FK__AnswerLis__Quest__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="KPITAssignmentModel.FK_dbo_AnswerLists_dbo_QuestionLists_QuestionId" ManuallyRouted="false" />
+        <AssociationConnector Association="KPITAssignmentModel.FK__QuestionC__Quest__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="KPITAssignmentModel.FK_dbo_QuestionCheckLists_dbo_QuestionLists_QuestionId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
